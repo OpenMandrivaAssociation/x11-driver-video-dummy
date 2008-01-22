@@ -1,8 +1,6 @@
-%define debug_package	%{nil}
-
 Name: x11-driver-video-dummy
 Version: 0.2.0
-Release: %mkrel 5
+Release: %mkrel 6
 Summary: The X.org dummy video driver
 Group: Development/X11
 URL: http://xorg.freedesktop.org
