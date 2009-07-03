@@ -1,5 +1,5 @@
 Name: x11-driver-video-dummy
-Version: 0.3.1
+Version: 0.3.2
 Release: %mkrel 1
 Summary: The X.org dummy video driver
 Group: System/X11
