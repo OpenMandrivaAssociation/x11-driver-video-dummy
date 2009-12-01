@@ -19,7 +19,7 @@ This is a dummy video driver for X.org.
 %setup -q -n xf86-video-dummy-%{version}
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
