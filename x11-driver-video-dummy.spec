@@ -1,11 +1,11 @@
 Name: x11-driver-video-dummy
-Version: 0.3.5
+Version: 0.3.6
 Release: 1
 Summary: The X.org dummy video driver
 Group: System/X11
 License: MIT
 URL: http://xorg.freedesktop.org
-Source: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-dummy-%{version}.tar.bz2
+Source0: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-dummy-%{version}.tar.bz2
 
 BuildRequires: x11-proto-devel >= 1.0.0
 BuildRequires: x11-server-devel >= 1.12
