@@ -1,0 +1,12 @@
+--- xf86-video-dummy-0.3.6/src/dummy_driver.c~	2012-07-18 09:35:39.000000000 +0000
++++ xf86-video-dummy-0.3.6/src/dummy_driver.c	2013-03-23 23:08:31.221572990 +0000
+@@ -14,9 +14,6 @@
+ /* All drivers initialising the SW cursor need this */
+ #include "mipointer.h"
+ 
+-/* All drivers implementing backing store need this */
+-#include "mibstore.h"
+-
+ /* All drivers using the mi colormap manipulation need this */
+ #include "micmap.h"
+ 
