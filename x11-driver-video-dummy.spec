@@ -2,13 +2,12 @@
 
 Summary:	The X.org dummy video driver
 Name:		x11-driver-video-dummy
-Version:	0.3.6
-Release:	4
+Version:	0.3.7
+Release:	1
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-dummy-%{version}.tar.bz2
-Patch0:		remove_mibstore_h.patch
 
 BuildRequires:	pkgconfig(xorg-macros)
 BuildRequires:	pkgconfig(xorg-server)
