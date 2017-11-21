@@ -2,8 +2,8 @@
 
 Summary:	The X.org dummy video driver
 Name:		x11-driver-video-dummy
-Version:	0.3.7
-Release:	13
+Version:	0.3.8
+Release:	1
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
