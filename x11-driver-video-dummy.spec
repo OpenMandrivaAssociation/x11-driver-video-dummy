@@ -2,12 +2,12 @@
 
 Summary:	The X.org dummy video driver
 Name:		x11-driver-video-dummy
-Version:	0.3.8
-Release:	4
+Version:	0.4.0
+Release:	1
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
-Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-dummy-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-dummy-%{version}.tar.xz
 
 BuildRequires:	pkgconfig(xorg-macros)
 BuildRequires:	pkgconfig(xorg-server)
@@ -18,17 +18,15 @@ Requires:	x11-server-common %(xserver-sdk-abi-requires videodrv)
 This is a dummy video driver for X.org.
 
 %prep
-%setup -qn xf86-video-dummy-%{version}
-%autopatch -p1
+%autosetup -n xf86-video-dummy-%{version} -p1
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc COPYING
 %{_libdir}/xorg/modules/drivers/dummy_drv.so
-
